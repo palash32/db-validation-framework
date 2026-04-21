@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 2 * * *'        # Every night at 02:00 UTC
   push:
-    branches: [main]
+    branches: [main, master]
 
 jobs:
   validate:
